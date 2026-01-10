@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "Cormorant Foraging Framework: A Three-Dimensional Taxonomy for Intelligence Systems"
+message: "If you use this framework, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Shatny
+    given-names: Michael
+    orcid: "https://orcid.org/0009-0006-2011-3258"
+repository-code: "https://github.com/semanticintent/cormorant-foraging-framework"
+url: "https://cormorantforaging.dev"
+abstract: >-
+  The Cormorant Foraging Framework presents a three-dimensional taxonomy
+  for categorizing and designing intelligence systems using observable
+  physical dimensions—Sound, Space, and Time. Inspired by cormorant foraging
+  behavior, the framework demonstrates how natural metaphors map directly to
+  information processing paradigms. Rather than being imposed top-down, this
+  framework emerged empirically from three independently deployed production
+  systems (ChirpIQX, PerchIQX, WakeIQX), revealing convergent design principles
+  aligned with fundamental physics.
+keywords:
+  - intelligence systems
+  - biomimetic framework
+  - dimensional taxonomy
+  - observable properties
+  - additive scoring
+  - multiplicative scoring
+  - exponential decay
+  - cormorant foraging
+  - natural metaphors
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-01-10"
+references:
+  - type: software
+    title: "PACE: Pattern for Agentic Conversational Experience"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18049371"
+    url: "https://github.com/semanticintent/pace-pattern"
+  - type: software
+    title: "6D Foraging Methodology: Strategic Dimensional Discovery"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18209946"
+    url: "https://github.com/semanticintent/6d-foraging-methodology"
