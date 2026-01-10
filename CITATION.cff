@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0006-2011-3258"
 repository-code: "https://github.com/semanticintent/cormorant-foraging-framework"
 url: "https://cormorantforaging.dev"
+doi: "10.5281/zenodo.18210081"
 abstract: >-
   The Cormorant Foraging Framework presents a three-dimensional taxonomy
   for categorizing and designing intelligence systems using observable

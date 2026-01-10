@@ -8,14 +8,14 @@ This document describes how the Cormorant Foraging Framework is archived for aca
 
 This repository will be archived on Zenodo for long-term preservation and academic citation.
 
-**Status:** 🟡 Pending
+**Status:** ✅ Archived
 
-**Planned Archive Details:**
+**Archive Details:**
 - **Title:** Cormorant Foraging Framework: A Three-Dimensional Taxonomy for Intelligence Systems
 - **Version:** 1.0.0
 - **Date:** 2026-01-10
 - **License:** CC BY 4.0
-- **DOI:** To be assigned
+- **DOI:** [10.5281/zenodo.18210081](https://doi.org/10.5281/zenodo.18210081)
 
 ---
 
@@ -133,9 +133,9 @@ See [README.md](README.md#citation) for citation formats, or use the metadata in
 ### Version History
 
 Each version archived on Zenodo gets its own DOI:
-- **v1.0.0:** Initial release (2026-01-10) - DOI: [Pending]
+- **v1.0.0:** Initial release (2026-01-10) - DOI: [10.5281/zenodo.18210081](https://doi.org/10.5281/zenodo.18210081)
 
-Concept DOI (always points to latest version): [To be assigned]
+Concept DOI (always points to latest version): 10.5281/zenodo.18210081
 
 ### Contributing to Archived Work
 
