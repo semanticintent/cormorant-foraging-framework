@@ -1,25 +1,25 @@
 # Cormorant Foraging Framework
-## A Three-Dimensional Taxonomy for Intelligence Systems
+## A Multi-Layered Architecture for Intelligence Systems
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18210081.svg)](https://doi.org/10.5281/zenodo.18210081)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub](https://img.shields.io/badge/GitHub-semanticintent%2Fcormorant--foraging--framework-blue)](https://github.com/semanticintent/cormorant-foraging-framework)
 
-**A biomimetic framework mapping natural dimensions to intelligence system design.**
+**A biomimetic framework mapping natural dimensions to intelligence system design — from sensing through optimization.**
 
-> *"Intelligence systems naturally align with physical dimensions when guided by natural metaphors."*
+> *"Sense. Measure. Act. Learn. The cormorant's 200-million-year loop, made reproducible."*
 
 ---
 
 ## Abstract
 
-The **Cormorant Foraging Framework** presents a three-dimensional taxonomy for categorizing and designing intelligence systems using observable physical dimensions—Sound, Space, and Time. Inspired by cormorant foraging behavior, the framework demonstrates how natural metaphors map directly to information processing paradigms.
+The **Cormorant Foraging Framework** presents a multi-layered architecture for categorizing and designing intelligence systems using observable physical dimensions — Sound, Space, and Time. Inspired by cormorant foraging behavior, the framework demonstrates how natural metaphors map directly to information processing paradigms, extending from three-dimensional sensing through gap measurement (DRIFT), action determination (Fetch), and adaptive optimization (GESA).
 
-Rather than being imposed top-down, this framework emerged empirically from three independently deployed production systems (ChirpIQX, PerchIQX, WakeIQX), revealing convergent design principles aligned with fundamental physics.
+Rather than being imposed top-down, this framework emerged empirically from three independently deployed production systems (ChirpIQX, PerchIQX, WakeIQX), revealing convergent design principles aligned with fundamental physics. The addition of GESA (Generative Episodic Simulated Annealing) as Layer Infinity completes the architecture — transforming a reactive stack into an adaptive one that learns from its own decisions through episodic memory and simulated annealing.
 
 **Author:** Michael Shatny
 **ORCID:** [0009-0006-2011-3258](https://orcid.org/0009-0006-2011-3258)
-**Date:** January 2026
+**Date:** March 2026
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **Website:** [cormorantforaging.dev](https://cormorantforaging.dev)
 
@@ -97,9 +97,40 @@ Relevance = BaseRelevance × e^(-age/halfLife) × AccessBoost
 
 ---
 
+## The Complete Stack
+
+```
+         Cormorant Foraging
+        (The Moon — 3D Foundation)
+       /         |         \
+    Sound     Space      Time
+   (Chirp)   (Perch)    (Wake)
+       \         |         /
+        \        |        /
+         +-------+-------+
+         |   Layer 1     |
+         |   DRIFT       |
+         |  (See Gap)    |
+         +-------+-------+
+                 |
+         +-------+-------+
+         |   Layer 2     |
+         |   Fetch       |
+         |  (Close Gap)  |
+         +-------+-------+
+                 |
+         +-------+-------+
+         |   Layer ∞     |
+         |   GESA        |
+         |  (Learn Why)  |
+         +---------------+
+```
+
+---
+
 ## Derived Layers
 
-The framework extends through two additional layers built on the 3D foundation:
+The framework extends through three additional layers built on the 3D foundation:
 
 ### Layer 1: DRIFT — Measurement
 
@@ -132,6 +163,25 @@ Fetch = Chirp × |DRIFT| × Confidence
 **Principle:** Any zero component blocks execution.
 
 **Documentation:** [fetch.cormorantforaging.dev](https://fetch.cormorantforaging.dev)
+
+---
+
+### Layer Infinity: GESA — Optimization
+
+Generative Episodic Simulated Annealing. The optimization layer that turns the stack from reactive to adaptive.
+
+**8-Step Loop:** OBSERVE -> RETRIEVE -> GENERATE -> ANNEAL -> SELECT -> ACT -> STORE -> COOL
+
+**Core Innovation:** Integration of episodic case-based reasoning with an explicit annealing schedule — making exploration/exploitation tradeoffs observable and tunable.
+
+**Key Properties:**
+- Episodic memory (situated experience, not general facts)
+- Temperature-gated candidate generation (explore early, exploit late)
+- Gap velocity tracking (DRIFT over time, not just DRIFT now)
+- Three loop invariants: every act produces an episode, episodes are immutable, temperature only decreases
+
+**Documentation:** [gesa.cormorantforaging.dev](https://gesa.cormorantforaging.dev)
+**Full Specification:** [GESA.md](GESA.md)
 
 ---
 
@@ -181,7 +231,9 @@ The framework has been applied in:
 - **PACE Pattern** — Conversational UX using the dimensional taxonomy
 - **6D Foraging Methodology** — Strategic analysis with Sound/Space/Time scoring
 - **HEAT Framework** — Workplace intelligence detection
+- **Project Phoenix** — Agentic legacy modernization pipeline
 - **PlayIQX, ChirpIQX, BrowserLLM** — Production implementations
+- **StratIQX** — 6D cascade analysis platform
 
 ---
 
@@ -189,15 +241,18 @@ The framework has been applied in:
 
 ```
 cormorant-foraging-framework/
-├── README.md                 # This file - framework overview
-├── DIMENSIONS.md             # Deep dive on Sound, Space, Time
-├── DERIVED-LAYERS.md         # DRIFT and Fetch extensions
-├── APPLICATIONS.md           # Real-world implementations
-├── EMPIRICAL-VALIDATION.md   # Performance data and testing
-├── CITATION.cff              # Machine-readable citation metadata
-├── CHANGELOG.md              # Version history
-├── CONTRIBUTING.md           # How to contribute
-└── LICENSE                   # CC BY 4.0 license
+├── README.md                     # This file - framework overview
+├── DIMENSIONS.md                 # Deep dive on Sound, Space, Time
+├── DERIVED-LAYERS.md             # DRIFT, Fetch, and GESA extensions
+├── GESA.md                       # Layer ∞ - Optimization specification
+├── COMPARATIVE-ANALYSIS.md       # Cross-dimensional validation
+├── PHILOSOPHICAL-FOUNDATIONS.md   # Epistemology, ontology, information theory
+├── APPLICATIONS.md               # Real-world implementations
+├── EMPIRICAL-VALIDATION.md       # Performance data and testing
+├── CITATION.cff                  # Machine-readable citation metadata
+├── CHANGELOG.md                  # Version history
+├── CONTRIBUTING.md               # How to contribute
+└── LICENSE                       # CC BY 4.0 license
 ```
 
 ---
@@ -207,19 +262,27 @@ cormorant-foraging-framework/
 Cormorant Foraging Framework is the foundational taxonomy for:
 
 ```
-Semantic Intent (Philosophy)
-  ↓
-Cormorant Foraging (3D Framework) ← You are here
-  ├─ PACE Pattern (DOI: 10.5281/zenodo.18049371)
-  ├─ 6D Methodology (DOI: 10.5281/zenodo.18209946)
-  └─ HEAT Framework
-      └─ Extensions: DRIFT, Fetch
+Semantic Intent (Philosophy)  -- DOI: 10.5281/zenodo.17114972
+  |
+PACE Pattern (UX)             -- DOI: 10.5281/zenodo.18904342
+  |
+6D Methodology (Diagnostic)  -- DOI: 10.5281/zenodo.18209946
+  |
+Cormorant Foraging (3D+)     -- DOI: 10.5281/zenodo.18210081  <-- You are here
+  |   Layer 0: Chirp / Perch / Wake  (Sense)
+  |   Layer 1: DRIFT                 (Measure)
+  |   Layer 2: Fetch                 (Act)
+  |   Layer ∞: GESA                  (Learn)
+  |
+Project Phoenix (Transform)  -- DOI: 10.5281/zenodo.18904231
 ```
 
 **Related Projects:**
-- [Semantic Intent SSOT](https://semanticintent.dev/papers/semantic-intent-ssot)
-- [PACE Pattern](https://github.com/semanticintent/pace-pattern)
-- [6D Foraging Methodology](https://github.com/semanticintent/6d-foraging-methodology)
+- [Semantic Intent SSOT](https://semanticintent.dev/papers/semantic-intent-ssot) (DOI: [10.5281/zenodo.17114972](https://doi.org/10.5281/zenodo.17114972))
+- [PACE Pattern](https://github.com/semanticintent/pace-pattern) (DOI: [10.5281/zenodo.18904342](https://doi.org/10.5281/zenodo.18904342))
+- [6D Foraging Methodology](https://github.com/semanticintent/6d-foraging-methodology) (DOI: [10.5281/zenodo.18209946](https://doi.org/10.5281/zenodo.18209946))
+- [Project Phoenix](https://github.com/semanticintent/project-phoenix) (DOI: [10.5281/zenodo.18904231](https://doi.org/10.5281/zenodo.18904231))
+- [GESA Documentation](https://gesa.cormorantforaging.dev)
 
 ---
 
@@ -263,7 +326,6 @@ Under the following terms:
 ## Author
 
 **Michael Shatny**
-Ontario, Canada
 ORCID: [0009-0006-2011-3258](https://orcid.org/0009-0006-2011-3258)
 
 ---

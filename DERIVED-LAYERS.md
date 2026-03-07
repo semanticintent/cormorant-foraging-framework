@@ -332,32 +332,68 @@ Chirp: High | DRIFT: High | Confidence: High | Fetch: Very High
 
 ---
 
-## Extensions and Future Work
+## Layer Infinity: GESA — Optimization
 
-### Potential Layer 3: Adapt
-Some practitioners have explored a Layer 3 for adaptive learning:
-- Learning from Fetch outcomes
-- Adjusting thresholds based on results
-- Pattern recognition across interventions
+**Generative Episodic Simulated Annealing** completes the stack — transforming a reactive system into an adaptive one that learns from its own decisions.
 
-**Status:** Experimental, not part of core framework
+Where DRIFT measures the gap and Fetch decides whether to act, GESA determines **how to act differently over time**.
 
-### Multi-Agent Fetch
-Using Fetch in distributed systems:
-- Multiple agents sensing different dimensions
-- Coordinated action thresholds
-- Collective confidence aggregation
+### The 8-Step Loop
 
-**Status:** Research area
+```
+OBSERVE -> RETRIEVE -> GENERATE -> ANNEAL -> SELECT -> ACT -> STORE -> COOL
+```
+
+| Step | Action |
+|------|--------|
+| **OBSERVE** | Read DRIFT, Fetch, and 3D scores |
+| **RETRIEVE** | Find similar past episodes by context fingerprint |
+| **GENERATE** | Synthesise candidate strategies from episodes + context |
+| **ANNEAL** | Filter candidates by temperature (bold vs conservative) |
+| **SELECT** | Score and pick best candidate within temperature constraints |
+| **ACT** | Execute or recommend the selected strategy |
+| **STORE** | Record outcome as new immutable episode |
+| **COOL** | Advance the temperature schedule |
+
+### Three Core Concepts
+
+1. **Episodic Memory** — Situated experience with temporal context, not general facts. Every Fetch decision, DRIFT measurement, and intervention outcome becomes an immutable episode.
+
+2. **Simulated Annealing** — High temperature (early) accepts suboptimal moves for exploration; low temperature (late) narrows toward proven solutions. Temperature governs exploration vs exploitation across the episode timeline.
+
+3. **Generative Output** — GESA does not retrieve cached answers. It generates new strategies by synthesising relevant past episodes, current context, and annealing temperature.
+
+### Loop Invariants
+
+Three invariants must hold at every cycle:
+
+1. **Every ACT produces an episode.** No action without capture.
+2. **Every episode is immutable.** No retroactive modification.
+3. **Temperature only decreases.** The system earns conservatism through experience.
+
+### Dependency Chain
+
+```
+Layer 0 (Sense) -> Layer 1 (Measure) -> Layer 2 (Act) -> Layer ∞ (Learn)
+                                                              |
+                                                    Store Episode
+                                                              |
+                                              Return to Layer 0 (Re-sense)
+```
+
+GESA depends on all prior layers: 3D scores from Layer 0, gap measurement from DRIFT, and action decisions from Fetch. Its episode store feeds back to Layer 0 through re-sensing — maintaining the no-circular-dependency principle.
+
+**Full specification:** [GESA.md](GESA.md) | **Documentation:** [gesa.cormorantforaging.dev](https://gesa.cormorantforaging.dev)
 
 ---
 
 ## Next Steps
 
-- **[Applications](APPLICATIONS.md)** - See DRIFT and Fetch in production systems
+- **[GESA Specification](GESA.md)** - Full Layer ∞ specification with formulas and schemas
+- **[Applications](APPLICATIONS.md)** - See DRIFT, Fetch, and GESA in production systems
 - **[Empirical Validation](EMPIRICAL-VALIDATION.md)** - Performance data for derived layers
 - **[Dimensions](DIMENSIONS.md)** - Deep dive on Layer 0 foundation
 
 ---
 
-*"Measure the gap. Gate the action. Return to sensing."* 🐦
+*"Measure the gap. Gate the action. Learn from history. The cormorant's loop, made reproducible."*

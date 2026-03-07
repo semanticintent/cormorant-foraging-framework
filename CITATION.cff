@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Cormorant Foraging Framework: A Three-Dimensional Taxonomy for Intelligence Systems"
+title: "Cormorant Foraging Framework: A Multi-Layered Architecture for Intelligence Systems"
 message: "If you use this framework, please cite it using the metadata from this file."
 type: software
 authors:
@@ -10,13 +10,15 @@ repository-code: "https://github.com/semanticintent/cormorant-foraging-framework
 url: "https://cormorantforaging.dev"
 doi: "10.5281/zenodo.18210081"
 abstract: >-
-  The Cormorant Foraging Framework presents a three-dimensional taxonomy
+  The Cormorant Foraging Framework presents a multi-layered architecture
   for categorizing and designing intelligence systems using observable
   physical dimensions—Sound, Space, and Time. Inspired by cormorant foraging
   behavior, the framework demonstrates how natural metaphors map directly to
-  information processing paradigms. Rather than being imposed top-down, this
-  framework emerged empirically from three independently deployed production
-  systems (ChirpIQX, PerchIQX, WakeIQX), revealing convergent design principles
+  information processing paradigms, extending from three-dimensional sensing
+  through gap measurement (DRIFT), action determination (Fetch), and adaptive
+  optimization (GESA). Rather than being imposed top-down, this framework
+  emerged empirically from three independently deployed production systems
+  (ChirpIQX, PerchIQX, WakeIQX), revealing convergent design principles
   aligned with fundamental physics.
 keywords:
   - intelligence systems
@@ -28,16 +30,21 @@ keywords:
   - exponential decay
   - cormorant foraging
   - natural metaphors
+  - generative-episodic-simulated-annealing
+  - optimization
+  - episodic-memory
+  - simulated-annealing
+  - exploration-exploitation
 license: CC-BY-4.0
-version: 1.0.0
-date-released: "2026-01-10"
+version: 2.0.0
+date-released: "2026-03-07"
 references:
   - type: software
     title: "PACE: Pattern for Agentic Conversational Experience"
     authors:
       - family-names: Shatny
         given-names: Michael
-    doi: "10.5281/zenodo.18049371"
+    doi: "10.5281/zenodo.18904342"
     url: "https://github.com/semanticintent/pace-pattern"
   - type: software
     title: "6D Foraging Methodology: Strategic Dimensional Discovery"
@@ -46,3 +53,17 @@ references:
         given-names: Michael
     doi: "10.5281/zenodo.18209946"
     url: "https://github.com/semanticintent/6d-foraging-methodology"
+  - type: software
+    title: "Project Phoenix: Agentic Legacy Modernization Pipeline"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.18904231"
+    url: "https://github.com/semanticintent/project-phoenix"
+  - type: software
+    title: "Semantic Intent SSOT"
+    authors:
+      - family-names: Shatny
+        given-names: Michael
+    doi: "10.5281/zenodo.17114972"
+    url: "https://semanticintent.dev/papers/semantic-intent-ssot"

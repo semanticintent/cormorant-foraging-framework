@@ -7,6 +7,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.0] - 2026-03-07
+
+### Added
+- **GESA.md** — Full specification for Layer ∞ (Generative Episodic Simulated Annealing)
+  - 8-step optimization loop: OBSERVE → RETRIEVE → GENERATE → ANNEAL → SELECT → ACT → STORE → COOL
+  - Episode similarity formula with 5 weighted dimensions
+  - Temperature profiles (Fast Cool, Standard, Slow, Adaptive)
+  - Three loop invariants, episode schema, candidate scoring
+- **PHILOSOPHICAL-FOUNDATIONS.md** — Epistemological, ontological, and information-theoretic foundations
+  - Observable anchoring grounded in empiricism, logical positivism, pragmatism
+  - Structural realism, natural kinds analysis, embodied cognition
+  - Shannon entropy and Kolmogorov complexity perspectives
+  - Ethics of transparency and autonomy
+- **COMPARATIVE-ANALYSIS.md** — Cross-dimensional validation and scoring methodology comparison
+  - Worked examples for additive, multiplicative, and exponential scoring
+  - Design independence evidence across production systems
+  - Mathematical model comparison and dimensional independence tests
+
+### Changed
+- **README.md** — Major rewrite for v2.0.0
+  - Subtitle: "Three-Dimensional Taxonomy" → "Multi-Layered Architecture"
+  - Abstract expanded to include GESA and the complete stack
+  - Added complete ASCII stack diagram (3D → DRIFT → Fetch → GESA)
+  - Added Layer ∞ GESA section
+  - Updated ecosystem tree with all 5 DOIs
+  - Added Project Phoenix and StratIQX to Applications
+  - Updated repository structure to reflect new files
+- **DERIVED-LAYERS.md** — Added GESA as Layer ∞
+  - Replaced experimental "Potential Layer 3: Adapt" section with full GESA summary
+  - Added dependency chain diagram showing GESA's relationship to prior layers
+- **CITATION.cff** — Bumped to v2.0.0
+  - Updated title and abstract to reflect multi-layered architecture
+  - Added GESA-related keywords (generative-episodic-simulated-annealing, optimization, episodic-memory)
+  - Added Project Phoenix and Semantic Intent SSOT references
+  - Updated PACE DOI to latest version
+
+---
+
 ## [1.0.0] - 2026-01-10
 
 ### Added
@@ -36,32 +74,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ChirpIQX (Sound): Fantasy sports intelligence via MCP server
 - PerchIQX (Space): Database schema intelligence for Cloudflare D1
 - WakeIQX (Time): Temporal context continuity management
-
-### Documentation Structure
-```
-cormorant-foraging-framework/
-├── README.md                 # Framework overview
-├── DIMENSIONS.md             # Deep dive on Sound, Space, Time
-├── DERIVED-LAYERS.md         # DRIFT and Fetch extensions
-├── APPLICATIONS.md           # Real-world implementations
-├── EMPIRICAL-VALIDATION.md   # Performance data and testing
-├── CITATION.cff              # Machine-readable citation metadata
-├── CHANGELOG.md              # This file
-├── CONTRIBUTING.md           # Contribution guidelines
-└── LICENSE                   # CC BY 4.0 license
-```
-
----
-
-## Future Releases
-
-Future versions will be documented here as the framework evolves through:
-- Additional production implementations
-- Cross-domain validation studies
-- Community contributions
-- Extensions to derived layers
-
-Each significant update will receive a new version number and DOI on Zenodo.
 
 ---
 
