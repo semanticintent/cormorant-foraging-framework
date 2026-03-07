@@ -1,7 +1,7 @@
 # Cormorant Foraging Framework
 ## A Multi-Layered Architecture for Intelligence Systems
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18210081.svg)](https://doi.org/10.5281/zenodo.18210081)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18904952.svg)](https://doi.org/10.5281/zenodo.18904952)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub](https://img.shields.io/badge/GitHub-semanticintent%2Fcormorant--foraging--framework-blue)](https://github.com/semanticintent/cormorant-foraging-framework)
 
@@ -268,7 +268,7 @@ PACE Pattern (UX)             -- DOI: 10.5281/zenodo.18904342
   |
 6D Methodology (Diagnostic)  -- DOI: 10.5281/zenodo.18209946
   |
-Cormorant Foraging (3D+)     -- DOI: 10.5281/zenodo.18210081  <-- You are here
+Cormorant Foraging (3D+)     -- DOI: 10.5281/zenodo.18904952  <-- You are here
   |   Layer 0: Chirp / Perch / Wake  (Sense)
   |   Layer 1: DRIFT                 (Measure)
   |   Layer 2: Fetch                 (Act)
@@ -292,7 +292,7 @@ If you use or reference the Cormorant Foraging Framework in your work, please ci
 
 ### APA Style
 
-Shatny, M. (2026). Cormorant Foraging Framework: A Three-Dimensional Taxonomy for Intelligence Systems. Zenodo. https://doi.org/10.5281/zenodo.18210081
+Shatny, M. (2026). Cormorant Foraging Framework: A Three-Dimensional Taxonomy for Intelligence Systems. Zenodo. https://doi.org/10.5281/zenodo.18904952
 
 ### BibTeX
 
@@ -303,7 +303,7 @@ Shatny, M. (2026). Cormorant Foraging Framework: A Three-Dimensional Taxonomy fo
   year = {2026},
   publisher = {Zenodo},
   url = {https://github.com/semanticintent/cormorant-foraging-framework},
-  doi = {10.5281/zenodo.18210081},
+  doi = {10.5281/zenodo.18904952},
   note = {ORCID: 0009-0006-2011-3258}
 }
 ```
