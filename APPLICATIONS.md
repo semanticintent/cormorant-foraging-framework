@@ -40,7 +40,7 @@ ChirpScore = (RecentPerf × 0.4) +
 - Real-time game data processing
 - Sub-second response times
 
-**Documentation:** [chirpiqx.com](https://chirpiqx.com)
+**Documentation:** [chirp.semanticintent.dev](https://chirp.semanticintent.dev)
 **Repository:** [github.com/semanticintent/semantic-chirp-intelligence-mcp-docs](https://github.com/semanticintent/semantic-chirp-intelligence-mcp-docs)
 
 ---
@@ -74,7 +74,7 @@ Where:
 
 **Key Feature:** Zero in any dimension (Insight, Context, or Execution) collapses the entire score to zero, preventing action without complete understanding.
 
-**Documentation:** [perchiqx.com](https://perchiqx.com)
+**Documentation:** [perch.semanticintent.dev](https://perch.semanticintent.dev)
 **Repository:** [github.com/semanticintent/semantic-perch-intelligence-mcp-docs](https://github.com/semanticintent/semantic-perch-intelligence-mcp-docs)
 
 ---
@@ -106,7 +106,7 @@ Where:
 - Manages conversation history effectively
 - Prevents context loss in long interactions
 
-**Documentation:** [wakeiqx.com](https://wakeiqx.com)
+**Documentation:** [wake.semanticintent.dev](https://wake.semanticintent.dev)
 **Repository:** [github.com/semanticintent/semantic-wake-intelligence-mcp-docs](https://github.com/semanticintent/semantic-wake-intelligence-mcp-docs)
 
 ---
@@ -172,7 +172,7 @@ Fetch = Chirp × |DRIFT| × Confidence
 - Customer success outreach
 - Resource allocation
 
-**Documentation:** [fetch.cormorantforaging.dev](https://fetch.cormorantforaging.dev)
+**Documentation:** [fetch.semanticintent.dev](https://fetch.semanticintent.dev)
 **Repository:** [github.com/semanticintent/fetch-website](https://github.com/semanticintent/fetch-website)
 
 ---
@@ -219,7 +219,7 @@ Maps business problems across six dimensions (Customer, Employee, Revenue, Regul
 - Case studies: Tailwind CSS (7-11×), Aviation MRO (18.5×)
 
 **Citation:** DOI: [10.5281/zenodo.18209946](https://doi.org/10.5281/zenodo.18209946)
-**Documentation:** [6d.cormorantforaging.dev](https://6d.cormorantforaging.dev)
+**Documentation:** [6d.semanticintent.dev](https://6d.semanticintent.dev)
 
 ---
 

@@ -13,7 +13,7 @@ Layer ∞:  GESA                                   ->  Optimise across episodes
 
 **Without GESA, the stack is reactive. With GESA, it becomes adaptive.**
 
-**Documentation:** [gesa.cormorantforaging.dev](https://gesa.cormorantforaging.dev)
+**Documentation:** [gesa.semanticintent.dev](https://gesa.semanticintent.dev)
 
 ---
 

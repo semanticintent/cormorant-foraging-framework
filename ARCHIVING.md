@@ -74,12 +74,12 @@ Link to related works in the ecosystem:
 
 ### Related Documentation Sites
 
-- **ChirpIQX:** https://chirpiqx.com
-- **PerchIQX:** https://perchiqx.com
-- **WakeIQX:** https://wakeiqx.com
-- **DRIFT:** https://drift.cormorantforaging.dev
-- **Fetch:** https://fetch.cormorantforaging.dev
-- **Main site:** https://cormorantforaging.dev
+- **ChirpIQX:** https://chirp.semanticintent.dev
+- **PerchIQX:** https://perch.semanticintent.dev
+- **WakeIQX:** https://wake.semanticintent.dev
+- **DRIFT:** https://drift.semanticintent.dev
+- **Fetch:** https://fetch.semanticintent.dev
+- **Main site:** https://cormorantforaging.semanticintent.dev
 
 ### Notes
 
@@ -170,27 +170,27 @@ Once archived, this DOI will be referenced by:
 The framework emerged from three production systems, each with its own documentation:
 
 ### ChirpIQX (Sound Dimension)
-- **Website:** https://chirpiqx.com
+- **Website:** https://chirp.semanticintent.dev
 - **Repository:** https://github.com/semanticintent/semantic-chirp-intelligence-mcp-docs
 - **Status:** Production MCP server
 
 ### PerchIQX (Space Dimension)
-- **Website:** https://perchiqx.com
+- **Website:** https://perch.semanticintent.dev
 - **Repository:** https://github.com/semanticintent/semantic-perch-intelligence-mcp-docs
 - **Status:** Production Cloudflare D1 intelligence
 
 ### WakeIQX (Time Dimension)
-- **Website:** https://wakeiqx.com
+- **Website:** https://wake.semanticintent.dev
 - **Repository:** https://github.com/semanticintent/semantic-wake-intelligence-mcp-docs
 - **Status:** Production temporal context protocol
 
 ### DRIFT (Layer 1)
-- **Website:** https://drift.cormorantforaging.dev
+- **Website:** https://drift.semanticintent.dev
 - **Repository:** https://github.com/semanticintent/drift-site
 - **Status:** Production measurement framework
 
 ### Fetch (Layer 2)
-- **Website:** https://fetch.cormorantforaging.dev
+- **Website:** https://fetch.semanticintent.dev
 - **Repository:** https://github.com/semanticintent/fetch-website
 - **Status:** Production action framework
 

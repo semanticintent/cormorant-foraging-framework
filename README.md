@@ -21,7 +21,7 @@ Rather than being imposed top-down, this framework emerged empirically from thre
 **ORCID:** [0009-0006-2011-3258](https://orcid.org/0009-0006-2011-3258)
 **Date:** March 2026
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-**Website:** [cormorantforaging.dev](https://cormorantforaging.dev)
+**Website:** [cormorantforaging.semanticintent.dev](https://cormorantforaging.semanticintent.dev)
 
 ---
 
@@ -45,7 +45,7 @@ Score = (Factor1 × Weight1) + (Factor2 × Weight2) - (Risk × WeightRisk)
 
 **Observable Anchoring:** Recent performance, schedule difficulty, measurable metrics
 
-**Documentation:** [chirpiqx.com](https://chirpiqx.com)
+**Documentation:** [chirp.semanticintent.dev](https://chirp.semanticintent.dev)
 
 ---
 
@@ -69,7 +69,7 @@ ICE Score = (Insight × Context × Execution) / 100
 
 **Observable Anchoring:** Schema relationships, cardinalities, index presence
 
-**Documentation:** [perchiqx.com](https://perchiqx.com)
+**Documentation:** [perch.semanticintent.dev](https://perch.semanticintent.dev)
 
 ---
 
@@ -93,7 +93,7 @@ Relevance = BaseRelevance × e^(-age/halfLife) × AccessBoost
 
 **Observable Anchoring:** Timestamps, file modifications, logged events
 
-**Documentation:** [wakeiqx.com](https://wakeiqx.com)
+**Documentation:** [wake.semanticintent.dev](https://wake.semanticintent.dev)
 
 ---
 
@@ -142,7 +142,7 @@ DRIFT = Methodology − Performance
 
 **Principle:** Depends entirely on Layer 0 sensing; no speculation beyond measurement.
 
-**Documentation:** [drift.cormorantforaging.dev](https://drift.cormorantforaging.dev)
+**Documentation:** [drift.semanticintent.dev](https://drift.semanticintent.dev)
 
 ---
 
@@ -162,7 +162,7 @@ Fetch = Chirp × |DRIFT| × Confidence
 
 **Principle:** Any zero component blocks execution.
 
-**Documentation:** [fetch.cormorantforaging.dev](https://fetch.cormorantforaging.dev)
+**Documentation:** [fetch.semanticintent.dev](https://fetch.semanticintent.dev)
 
 ---
 
@@ -180,7 +180,7 @@ Generative Episodic Simulated Annealing. The optimization layer that turns the s
 - Gap velocity tracking (DRIFT over time, not just DRIFT now)
 - Three loop invariants: every act produces an episode, episodes are immutable, temperature only decreases
 
-**Documentation:** [gesa.cormorantforaging.dev](https://gesa.cormorantforaging.dev)
+**Documentation:** [gesa.semanticintent.dev](https://gesa.semanticintent.dev)
 **Full Specification:** [GESA.md](GESA.md)
 
 ---
@@ -282,7 +282,7 @@ Project Phoenix (Transform)  -- DOI: 10.5281/zenodo.18904231
 - [PACE Pattern](https://github.com/semanticintent/pace-pattern) (DOI: [10.5281/zenodo.18904342](https://doi.org/10.5281/zenodo.18904342))
 - [6D Foraging Methodology](https://github.com/semanticintent/6d-foraging-methodology) (DOI: [10.5281/zenodo.18209946](https://doi.org/10.5281/zenodo.18209946))
 - [Project Phoenix](https://github.com/semanticintent/project-phoenix) (DOI: [10.5281/zenodo.18904231](https://doi.org/10.5281/zenodo.18904231))
-- [GESA Documentation](https://gesa.cormorantforaging.dev)
+- [GESA Documentation](https://gesa.semanticintent.dev)
 
 ---
 

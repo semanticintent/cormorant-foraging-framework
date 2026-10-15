@@ -77,4 +77,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-*For the latest version, visit [cormorantforaging.dev](https://cormorantforaging.dev)*
+*For the latest version, visit [cormorantforaging.semanticintent.dev](https://cormorantforaging.semanticintent.dev)*

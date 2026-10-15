@@ -117,7 +117,7 @@ Without observable anchoring from Layer 0, DRIFT becomes speculation.
 
 ### Documentation
 
-Full DRIFT specification: [drift.cormorantforaging.dev](https://drift.cormorantforaging.dev)
+Full DRIFT specification: [drift.semanticintent.dev](https://drift.semanticintent.dev)
 
 ---
 
@@ -265,7 +265,7 @@ After action, return to sensing:
 
 ### Documentation
 
-Full Fetch specification: [fetch.cormorantforaging.dev](https://fetch.cormorantforaging.dev)
+Full Fetch specification: [fetch.semanticintent.dev](https://fetch.semanticintent.dev)
 
 ---
 
@@ -383,7 +383,7 @@ Layer 0 (Sense) -> Layer 1 (Measure) -> Layer 2 (Act) -> Layer ∞ (Learn)
 
 GESA depends on all prior layers: 3D scores from Layer 0, gap measurement from DRIFT, and action decisions from Fetch. Its episode store feeds back to Layer 0 through re-sensing — maintaining the no-circular-dependency principle.
 
-**Full specification:** [GESA.md](GESA.md) | **Documentation:** [gesa.cormorantforaging.dev](https://gesa.cormorantforaging.dev)
+**Full specification:** [GESA.md](GESA.md) | **Documentation:** [gesa.semanticintent.dev](https://gesa.semanticintent.dev)
 
 ---
 
